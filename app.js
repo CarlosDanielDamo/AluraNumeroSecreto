@@ -1,6 +1,6 @@
 //Area das Variaveis
 let listaNumerosSorteados = [];
-let numeroMaximo = 55;
+let numeroMaximo = 15;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 console.log(numeroSecreto);
