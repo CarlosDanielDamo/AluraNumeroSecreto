@@ -1,6 +1,6 @@
 //Area das Variaveis
 let listaNumerosSorteados = [];
-let numeroMaximo = 15;
+let numeroMaximo = 20;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 console.log(numeroSecreto);
@@ -10,7 +10,7 @@ mensagemInicial();
 //Aréa de funções
 
 function mensagemInicial() {
-    exibirTextoTela('h1', 'Jogo do número secreto!');
+    exibirTextoTela('h1', 'Adivinhe o Número Secreto!');
     exibirTextoTela('p', `Selecione um numero de 1 a ${numeroMaximo}:`);
 }
  function verificarChute() {
