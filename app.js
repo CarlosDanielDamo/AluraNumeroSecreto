@@ -1,8 +1,8 @@
 //Area das Variaveis
-let listaNumerosSorteados = [];
-let numeroMaximo = 20;
-let numeroSecreto = gerarNumeroAleatorio();
-let tentativas = 1;
+let listaNumerosSorteados = []; //Variavel que cria uma lista para armazenar os numero secretos ja utilizados
+let numeroMaximo = 100; //Variavel que recebe o numero limite que se pode chegar o numero secreto
+let numeroSecreto = gerarNumeroAleatorio(); //variavel que recebe a funcão que gera o numero secreto
+let tentativas = 1; //variavel que armazena o numero de tentativas que o usuario precisou pra acertar o numeor secreto
 console.log(numeroSecreto);
 
 mensagemInicial();
