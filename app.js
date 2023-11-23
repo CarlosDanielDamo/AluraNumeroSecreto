@@ -3,36 +3,37 @@ let listaNumerosSorteados = []; //Variavel que cria uma lista para armazenar os 
 let numeroMaximo = 100; //Variavel que recebe o numero limite que se pode chegar o numero secreto
 let numeroSecreto = gerarNumeroAleatorio(); //variavel que recebe a funcão que gera o numero secreto
 let tentativas = 1; //variavel que armazena o numero de tentativas que o usuario precisou pra acertar o numeor secreto
-console.log(numeroSecreto);
+console.log(numeroSecreto); //Log para se conferir o numero secreto pelo Console
 
-mensagemInicial();
+mensagemInicial(); //Chamando a função Mensagem Inicial
 
 //Aréa de funções
 
 function mensagemInicial() {
     exibirTextoTela('h1', 'Adivinhe o Número Secreto!');
     exibirTextoTela('p', `Selecione um numero de 1 a ${numeroMaximo}:`);
-}
- function verificarChute() {
-    let chute = document.querySelector('input').value;
-    if(chute == numeroSecreto) {
-        exibirTextoTela('h1','Acertou');
-        let palavraTentativas = tentativas > 1 ? 'tentativas' : 'tentativa';
-        let mensagemTentativas = `Parabens! Você descobriu que o numero secreto era ${numeroSecreto} com ${tentativas} ${palavraTentativas}:D!`;
-        exibirTextoTela('p', mensagemTentativas);
-        document.getElementById('reiniciar').removeAttribute('disabled', false);
-    }else{
-        if(chute > numeroSecreto) {
-            exibirTextoTela('h1', 'Errou!!!');
-            exibirTextoTela('p', `O numero secreto e menor que ${chute}!`);
-         }else {
-            exibirTextoTela('h1', 'Errou!!!');
-            exibirTextoTela('p', `O numero secreto e maior que ${chute}!`);
-        }
-        tentativas++;
-        limparCampo();
-    }
-}
+} //Função que escreve textos na tag h1 e p do hmtlcdo projeto
+
+function verificarChute() {
+   let chute = document.querySelector('input').value;
+   if(chute == numeroSecreto) {
+       exibirTextoTela('h1','Acertou');
+       let palavraTentativas = tentativas > 1 ? 'tentativas' : 'tentativa';
+       let mensagemTentativas = `Parabens! Você descobriu que o numero secreto era ${numeroSecreto} com ${tentativas} ${palavraTentativas}:D!`;
+       exibirTextoTela('p', mensagemTentativas);
+       document.getElementById('reiniciar').removeAttribute('disabled', false);
+   }else{
+       if(chute > numeroSecreto) {
+           exibirTextoTela('h1', 'Errou!!!');
+           exibirTextoTela('p', `O numero secreto e menor que ${chute}!`);
+        }else {
+           exibirTextoTela('h1', 'Errou!!!');
+           exibirTextoTela('p', `O numero secreto e maior que ${chute}!`);
+       }
+       tentativas++;
+       limparCampo();
+   }
+} //Função responsavel por verificar se o numero do input chute e igual ou ao numero secreto, caso ele não seja, ele realisa um else que retorna um feedback que o numero chutado esta errado 
 
 function reiniciarJogo(){
     numeroSecreto = gerarNumeroAleatorio();
