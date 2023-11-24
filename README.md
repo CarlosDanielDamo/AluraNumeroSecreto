@@ -1,7 +1,7 @@
 # O jogo do numero secreto
 
 ## Tecnologias
-* HTML
+* Smaller logo: ![Logo do HTML5][1] [1]: /html-5.png "Logo Html"
 * Css
 * JavaScript
 
