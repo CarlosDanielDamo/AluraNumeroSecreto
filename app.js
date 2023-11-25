@@ -15,7 +15,7 @@ function mensagemInicial() {
 } //Função que escreve textos na tag h1 e p do hmtlcdo projeto
 
 function verificarChute() {
-   let chute = document.querySelector('input').value;
+   let chute = document.querySelector("input").value;
    if(chute == numeroSecreto) {
        exibirTextoTela('h1','Acertou');
        let palavraTentativas = tentativas > 1 ? 'tentativas' : 'tentativa';
