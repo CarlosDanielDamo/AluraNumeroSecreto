@@ -2,7 +2,7 @@
 
 ## Tecnologias
 <div>
-<img src="img/html-5.png" alt="Logo html">
+<img src="img/html-5.png" alt="Logo html" width=50px height=50px>
 <img>
 <img>
 </div>
