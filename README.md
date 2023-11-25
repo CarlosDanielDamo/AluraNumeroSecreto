@@ -1,6 +1,12 @@
 # O jogo do numero secreto
 
 ## Tecnologias
+<div>
+<img src="img/html-5.png" alt="Logo html">
+<img>
+<img>
+</div>
+
 * Smaller logo: ![Logo do HTML5][1] [1]:/html-5.png "Logo Html"
 * Css
 * JavaScript
