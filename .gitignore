@@ -1,0 +1,7 @@
+pasta/ //para ignorar pastas com determinado nome
+arquivo.txt //ignora determinados arquivos
+*.extensao //ignora determinadas extenções
+
+ignorada/
+ignorado.txt
+*.py
