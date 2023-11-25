@@ -1,9 +1,11 @@
 # O jogo do numero secreto
 
 ## Tecnologias
-* HTML
-* Css
-* JavaScript
+<div space-betwen=10px>
+<img src="img/html-5.png" alt="Logo HTML" width=50px height=50px>
+<img src="img/css-3.png" alt="Logo Css" width=50px height=50px>
+<img src="img/script-java.png" alt="Logo Javascript" width=50px height=50px>
+</div>
 
 ### Sobre o Projeto
 <p>
