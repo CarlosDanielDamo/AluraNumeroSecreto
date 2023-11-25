@@ -2,14 +2,10 @@
 
 ## Tecnologias
 <div>
-<img src="img/html-5.png" alt="Logo html" width=50px height=50px>
-<img>
-<img>
+<img src="img/html-5.png" alt="Logo HTML" width=50px height=50px>
+<img src="img/css-3.png" alt="Logo Css" width=50px height=50px>
+<img src="img/script-java.png" alt="Logo Javascript" width=50px height=50px>
 </div>
-
-* Smaller logo: ![Logo do HTML5][1] [1]:/html-5.png "Logo Html"
-* Css
-* JavaScript
 
 ### Sobre o Projeto
 <p>
